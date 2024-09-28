@@ -4,10 +4,13 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "dueDate": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
     },
     "done": {
       "type": "boolean"
